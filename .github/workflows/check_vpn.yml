@@ -2,10 +2,8 @@ name: Check connect vpn
 
 on:
   push:
-    branches-ignore:
-      - master
-      - develop
-      - dependabot
+    branches:
+      - main
 
 jobs:
   check-vpn:
